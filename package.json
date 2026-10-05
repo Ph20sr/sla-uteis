@@ -1,0 +1,17 @@
+{
+  "name": "sla-uteis",
+  "version": "1.0.0",
+  "description": "Prazos de SLA em horário comercial com feriados brasileiros: soma minutos úteis, mede tempo decorrido e classifica tickets em ok / atenção / estourado.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "types": "./src/index.d.ts",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["sla", "business-hours", "horario-comercial", "feriados", "helpdesk", "tickets", "brasil"],
+  "license": "MIT"
+}
